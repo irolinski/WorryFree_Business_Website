@@ -1,4 +1,8 @@
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
+
 const LadingPage = () => {
+  useDocumentTitle("Home | WorryFree");
+
   return (
     <div>
       <p>
